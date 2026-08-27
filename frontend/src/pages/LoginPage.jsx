@@ -26,7 +26,7 @@ const LoginPage = () => {
   }, [currentText]);
 
   return (
-    <div className="relative min-h-screen w-full overflow-hidden bg-[#eaf4ff]">
+    <div className="relative min-h-screen w-full overflow-hidden bg-[#f5f7f0]">
 
       {/* =========================================================
           BACKGROUND IMAGE
@@ -188,7 +188,7 @@ const LoginPage = () => {
                 font-bold
                 uppercase
                 tracking-[0.22em]
-                text-[#7c3aed]
+                text-[#9CAF88]
                 md:text-sm
               "
             >
@@ -219,9 +219,9 @@ const LoginPage = () => {
                 mt-1
                 min-h-[65px]
                 bg-gradient-to-r
-                from-[#9333ea]
-                via-[#8b5cf6]
-                to-[#7c3aed]
+                from-[#8a9d73]
+                via-[#9CAF88]
+                to-[#A8B896]
                 bg-clip-text
                 text-4xl
                 font-bold
@@ -348,7 +348,7 @@ const LoginPage = () => {
                     items-center
                     justify-center
                     rounded-lg
-                    bg-[#f3e8ff]
+                    bg-[#e8efe1]
                   "
                 >
 
@@ -420,7 +420,7 @@ const LoginPage = () => {
                     items-center
                     justify-center
                     rounded-lg
-                    bg-[#f3e8ff]
+                    bg-[#e8efe1]
                   "
                 >
 
@@ -504,7 +504,7 @@ const LoginPage = () => {
                     items-center
                     justify-center
                     rounded-lg
-                    bg-[#f3e8ff]
+                    bg-[#e8efe1]
                   "
                 >
 
@@ -588,7 +588,7 @@ const LoginPage = () => {
                     items-center
                     justify-center
                     rounded-lg
-                    bg-[#f3e8ff]
+                    bg-[#e8efe1]
                   "
                 >
 
@@ -699,28 +699,28 @@ const LoginPage = () => {
 
             <a
               href="#"
-              className="transition hover:text-[#7c3aed]"
+              className="transition hover:text-[#9CAF88]"
             >
               About
             </a>
 
             <a
               href="#"
-              className="transition hover:text-[#7c3aed]"
+              className="transition hover:text-[#9CAF88]"
             >
               Privacy
             </a>
 
             <a
               href="#"
-              className="transition hover:text-[#7c3aed]"
+              className="transition hover:text-[#9CAF88]"
             >
               Terms
             </a>
 
             <a
               href="#"
-              className="transition hover:text-[#7c3aed]"
+              className="transition hover:text-[#9CAF88]"
             >
               Help
             </a>
