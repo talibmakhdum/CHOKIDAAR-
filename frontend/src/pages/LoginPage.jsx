@@ -26,7 +26,7 @@ const LoginPage = () => {
   }, [currentText]);
 
   return (
-    <div className="relative min-h-screen w-full overflow-hidden bg-[#f5f7f0]">
+    <div className="relative min-h-screen w-full overflow-hidden bg-[#d4cfc4]">
 
       {/* =========================================================
           BACKGROUND IMAGE
@@ -48,15 +48,18 @@ const LoginPage = () => {
       />
 
       {/* =========================================================
-          VERY LIGHT OVERLAY
-          Keeps the image bright
+          OVERLAY WITH WARM TONE
+          Brings out the heritage aesthetic
       ========================================================= */}
 
       <div
         className="
           absolute
           inset-0
-          bg-white/5
+          bg-gradient-to-b
+          from-[rgba(168,155,135,0.15)]
+          via-[rgba(160,145,120,0.1)]
+          to-[rgba(168,155,135,0.2)]
         "
       />
 
@@ -100,7 +103,7 @@ const LoginPage = () => {
               className="
                 text-sm
                 font-bold
-                text-[#111827]
+                text-[#2d2416]
                 md:text-base
               "
             >
@@ -112,7 +115,7 @@ const LoginPage = () => {
                 text-[9px]
                 font-medium
                 tracking-wide
-                text-[#374151]
+                text-[#4a3f38]
                 md:text-xs
               "
             >
@@ -123,7 +126,7 @@ const LoginPage = () => {
               className="
                 mt-0.5
                 text-[8px]
-                text-[#4b5563]
+                text-[#6b5f56]
               "
             >
               सत्यमेव जयते
@@ -188,7 +191,7 @@ const LoginPage = () => {
                 font-bold
                 uppercase
                 tracking-[0.22em]
-                text-[#9CAF88]
+                text-[#8b6f4e]
                 md:text-sm
               "
             >
@@ -202,7 +205,7 @@ const LoginPage = () => {
                 text-4xl
                 font-bold
                 leading-tight
-                text-[#111827]
+                text-[#2d2416]
                 md:text-5xl
                 lg:text-[52px]
               "
@@ -219,9 +222,9 @@ const LoginPage = () => {
                 mt-1
                 min-h-[65px]
                 bg-gradient-to-r
-                from-[#8a9d73]
-                via-[#9CAF88]
-                to-[#A8B896]
+                from-[#a89468]
+                via-[#b8a076]
+                to-[#9d8556]
                 bg-clip-text
                 text-4xl
                 font-bold
@@ -241,7 +244,7 @@ const LoginPage = () => {
                 mt-1
                 text-3xl
                 font-bold
-                text-[#111827]
+                text-[#2d2416]
                 md:text-4xl
               "
             >
@@ -294,7 +297,7 @@ const LoginPage = () => {
                 text-sm
                 font-medium
                 leading-relaxed
-                text-[#1f2937]
+                text-[#3d3428]
                 md:text-base
               "
             >
@@ -325,17 +328,17 @@ const LoginPage = () => {
                 className="
                   rounded-xl
                   border
-                  border-white/80
-                  bg-white/75
+                  border-white/60
+                  bg-white/50
                   px-3
                   py-4
                   text-center
-                  shadow-[0_8px_25px_rgba(15,23,42,0.10)]
+                  shadow-[0_8px_25px_rgba(45,36,22,0.12)]
                   backdrop-blur-md
                   transition-all
                   duration-300
                   hover:-translate-y-1
-                  hover:bg-white/90
+                  hover:bg-white/70
                 "
               >
 
@@ -348,7 +351,7 @@ const LoginPage = () => {
                     items-center
                     justify-center
                     rounded-lg
-                    bg-[#e8efe1]
+                    bg-[#e8dfd2]
                   "
                 >
 
@@ -357,7 +360,7 @@ const LoginPage = () => {
                     fill="none"
                     stroke="currentColor"
                     strokeWidth="1.8"
-                    className="h-5 w-5 text-[#111827]"
+                    className="h-5 w-5 text-[#2d2416]"
                   >
 
                     <path
@@ -381,7 +384,7 @@ const LoginPage = () => {
                     mt-2
                     text-[11px]
                     font-semibold
-                    text-[#111827]
+                    text-[#2d2416]
                   "
                 >
                   Secure
@@ -397,17 +400,17 @@ const LoginPage = () => {
                 className="
                   rounded-xl
                   border
-                  border-white/80
-                  bg-white/75
+                  border-white/60
+                  bg-white/50
                   px-3
                   py-4
                   text-center
-                  shadow-[0_8px_25px_rgba(15,23,42,0.10)]
+                  shadow-[0_8px_25px_rgba(45,36,22,0.12)]
                   backdrop-blur-md
                   transition-all
                   duration-300
                   hover:-translate-y-1
-                  hover:bg-white/90
+                  hover:bg-white/70
                 "
               >
 
@@ -420,7 +423,7 @@ const LoginPage = () => {
                     items-center
                     justify-center
                     rounded-lg
-                    bg-[#e8efe1]
+                    bg-[#e8dfd2]
                   "
                 >
 
@@ -429,7 +432,7 @@ const LoginPage = () => {
                     fill="none"
                     stroke="currentColor"
                     strokeWidth="1.8"
-                    className="h-5 w-5 text-[#111827]"
+                    className="h-5 w-5 text-[#2d2416]"
                   >
 
                     <path
@@ -465,7 +468,7 @@ const LoginPage = () => {
                     mt-2
                     text-[11px]
                     font-semibold
-                    text-[#111827]
+                    text-[#2d2416]
                   "
                 >
                   Transparent
@@ -481,17 +484,17 @@ const LoginPage = () => {
                 className="
                   rounded-xl
                   border
-                  border-white/80
-                  bg-white/75
+                  border-white/60
+                  bg-white/50
                   px-3
                   py-4
                   text-center
-                  shadow-[0_8px_25px_rgba(15,23,42,0.10)]
+                  shadow-[0_8px_25px_rgba(45,36,22,0.12)]
                   backdrop-blur-md
                   transition-all
                   duration-300
                   hover:-translate-y-1
-                  hover:bg-white/90
+                  hover:bg-white/70
                 "
               >
 
@@ -504,7 +507,7 @@ const LoginPage = () => {
                     items-center
                     justify-center
                     rounded-lg
-                    bg-[#e8efe1]
+                    bg-[#e8dfd2]
                   "
                 >
 
@@ -513,7 +516,7 @@ const LoginPage = () => {
                     fill="none"
                     stroke="currentColor"
                     strokeWidth="1.8"
-                    className="h-5 w-5 text-[#111827]"
+                    className="h-5 w-5 text-[#2d2416]"
                   >
 
                     <circle
@@ -549,7 +552,7 @@ const LoginPage = () => {
                     mt-2
                     text-[11px]
                     font-semibold
-                    text-[#111827]
+                    text-[#2d2416]
                   "
                 >
                   Citizen First
@@ -565,17 +568,17 @@ const LoginPage = () => {
                 className="
                   rounded-xl
                   border
-                  border-white/80
-                  bg-white/75
+                  border-white/60
+                  bg-white/50
                   px-3
                   py-4
                   text-center
-                  shadow-[0_8px_25px_rgba(15,23,42,0.10)]
+                  shadow-[0_8px_25px_rgba(45,36,22,0.12)]
                   backdrop-blur-md
                   transition-all
                   duration-300
                   hover:-translate-y-1
-                  hover:bg-white/90
+                  hover:bg-white/70
                 "
               >
 
@@ -588,7 +591,7 @@ const LoginPage = () => {
                     items-center
                     justify-center
                     rounded-lg
-                    bg-[#e8efe1]
+                    bg-[#e8dfd2]
                   "
                 >
 
@@ -597,7 +600,7 @@ const LoginPage = () => {
                     fill="none"
                     stroke="currentColor"
                     strokeWidth="1.8"
-                    className="h-5 w-5 text-[#111827]"
+                    className="h-5 w-5 text-[#2d2416]"
                   >
 
                     <circle
@@ -621,7 +624,7 @@ const LoginPage = () => {
                     mt-2
                     text-[11px]
                     font-semibold
-                    text-[#111827]
+                    text-[#2d2416]
                   "
                 >
                   24×7 Access
@@ -664,8 +667,8 @@ const LoginPage = () => {
           right-0
           z-20
           border-t
-          border-white/60
-          bg-white/45
+          border-white/40
+          bg-white/35
           px-5
           py-3
           backdrop-blur-md
@@ -682,7 +685,7 @@ const LoginPage = () => {
             justify-between
             gap-2
             text-[10px]
-            text-[#374151]
+            text-[#4a3f38]
             md:flex-row
           "
         >
@@ -699,28 +702,28 @@ const LoginPage = () => {
 
             <a
               href="#"
-              className="transition hover:text-[#9CAF88]"
+              className="transition hover:text-[#8b6f4e]"
             >
               About
             </a>
 
             <a
               href="#"
-              className="transition hover:text-[#9CAF88]"
+              className="transition hover:text-[#8b6f4e]"
             >
               Privacy
             </a>
 
             <a
               href="#"
-              className="transition hover:text-[#9CAF88]"
+              className="transition hover:text-[#8b6f4e]"
             >
               Terms
             </a>
 
             <a
               href="#"
-              className="transition hover:text-[#9CAF88]"
+              className="transition hover:text-[#8b6f4e]"
             >
               Help
             </a>
