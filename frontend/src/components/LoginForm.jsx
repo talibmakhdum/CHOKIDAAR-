@@ -14,7 +14,7 @@ const LoginForm = () => {
       {/* Heading */}
       <div className="text-center">
 
-        <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-purple-100">
+        <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-[#e8dfd2]">
           <span className="text-xl">
             🏛️
           </span>
@@ -22,7 +22,7 @@ const LoginForm = () => {
 
         <h2 className="text-2xl font-bold">
           Login to{" "}
-          <span className="text-purple-600">
+          <span className="text-[#8b6f4e]">
             AGovern
           </span>
         </h2>
@@ -54,7 +54,7 @@ const LoginForm = () => {
             name="username"
             type="text"
             placeholder="Enter your username"
-            className="w-full rounded-lg border border-gray-300 px-3 py-3 text-sm outline-none transition placeholder:text-gray-400 focus:border-purple-500 focus:ring-2 focus:ring-purple-100"
+            className="w-full rounded-lg border border-gray-300 px-3 py-3 text-sm outline-none transition placeholder:text-gray-400 focus:border-[#8b6f4e] focus:ring-2 focus:ring-[#e8dfd2]"
             required
           />
 
@@ -74,7 +74,7 @@ const LoginForm = () => {
 
             <a
               href="#"
-              className="text-xs text-purple-600 hover:underline"
+              className="text-xs text-[#8b6f4e] hover:underline"
             >
               Forgot?
             </a>
@@ -88,14 +88,14 @@ const LoginForm = () => {
               name="password"
               type={showPassword ? "text" : "password"}
               placeholder="Enter your password"
-              className="w-full rounded-lg border border-gray-300 px-3 py-3 pr-10 text-sm outline-none transition placeholder:text-gray-400 focus:border-purple-500 focus:ring-2 focus:ring-purple-100"
+              className="w-full rounded-lg border border-gray-300 px-3 py-3 pr-10 text-sm outline-none transition placeholder:text-gray-400 focus:border-[#8b6f4e] focus:ring-2 focus:ring-[#e8dfd2]"
               required
             />
 
             <button
               type="button"
               onClick={() => setShowPassword(!showPassword)}
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-sm text-gray-400 hover:text-purple-600"
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-sm text-gray-400 hover:text-[#8b6f4e]"
             >
               {showPassword ? "🙈" : "👁️"}
             </button>
@@ -110,7 +110,7 @@ const LoginForm = () => {
           <input
             id="remember"
             type="checkbox"
-            className="h-3.5 w-3.5 accent-purple-600"
+            className="h-3.5 w-3.5 accent-[#8b6f4e]"
           />
 
           <label
@@ -125,7 +125,7 @@ const LoginForm = () => {
         {/* Login */}
         <button
           type="submit"
-          className="w-full rounded-lg bg-gradient-to-r from-purple-700 to-violet-600 py-3 text-sm font-semibold text-white shadow-md transition hover:from-purple-800 hover:to-violet-700 active:scale-[0.99]"
+          className="w-full rounded-lg bg-gradient-to-r from-[#a89468] to-[#8b6f4e] py-3 text-sm font-semibold text-white shadow-md transition hover:from-[#9d8556] hover:to-[#7a5f42] active:shadow-inner"
         >
           Login
         </button>
